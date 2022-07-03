@@ -1,57 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curriculum</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curriculum</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <header style="text-align:center">
-        <h1>Jonathan David Núñez de Cáceres González</h1>
-        <address>
-            Correo: <a href="mailto:A01411277@tec.mx">A01411277@tec.mx</a><br>
-            Telefono: <a href="tel:+8183582000">81 8358 2000</a><br>
-            Direccion: Av. Eugenio Garza Sada Sur, Tecnológico, 64849 Monterrey, N.L., Mexico 
-        </address>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d8/Emblem-person-blue.svg" alt="Foto de mí" width="100"/>
-    </header>
-    <main>
-        <section>
-            <h2>Perfil</h2>
-            <div style="margin-left:40px;">
-                <p>Estudiante de último semestre de Ingeniería en Tecnologías de Información en <span style="color: navy;">Tecnológico de Monterrey</span>.</p>
-            </div>
-        </section>
-        <section>
-            <h2>Historial laboral</h2>
-            <ul>
-                <li>2021 - Desarrollador Full Stack en Club de Niños y Niñas de Nuevo León, A.B.P.</li>
-                <li>2020 - Desarrollador Front End en Centro Virtual de Aprendizaje Tec de Monterrey</li>
-            </ul>
-        </section>
-        <section>
-            <h2>Certificados</h2>
-            <ul>
-                <li>PCAP - Programming Essentials in Python</li>
-                <li>CCNA Routing and Switching: Introduction to Networks</li>
-            </ul>
-        </section>
-        <section>
-            <h2>Formación</h2>
-            <ul>
-                <li>2018-2022&emsp;Tecnológico de Monterrey, Campus Monterrey. Promedio Global 98</li>
-                <li>2015-2018&emsp;Tecnológico de Monterrey, Campus Tampico</li>
-            </ul>
-        </section>
-        <section>
-            <h2>Idiomas</h2>
-            <ol>
-                <li>Español</li>
-                <li>Inglés</li>
-                <li>Francés</li>
-            </ol>
-        </section>
-    </main>
+  <header>
+    <img id="profile-pic" src="https://upload.wikimedia.org/wikipedia/commons/d/d8/Emblem-person-blue.svg"
+      alt="Foto de mí" style="width: 100px" />
+    <div id="name-address">
+      <h1>Jonathan David Núñez de Cáceres González</h1>
+      <address>
+        Correo: <a href="mailto:A01411277@tec.mx">A01411277@tec.mx</a><br>
+        Telefono: <a href="tel:+8183582000">81 8358 2000</a><br>
+        Direccion: Av. Eugenio Garza Sada Sur, Tecnológico, 64849 Monterrey, N.L., Mexico
+      </address>
+    </div>
+  </header>
+  <main>
+    <section id="profile" class="resume-section">
+      <h2>Perfil</h2>
+      <div style="margin-left:40px;">
+        <p>Estudiante de último semestre de Ingeniería en Tecnologías de Información en
+          <span class="tec">Tecnológico de Monterrey</span>.
+        </p>
+      </div>
+    </section>
+    <section id="experience" class="resume-section">
+      <h2>Historial laboral</h2>
+      <ul>
+        <li>2021 - Desarrollador Full Stack en Club de Niños y Niñas de Nuevo León, A.B.P.</li>
+        <li>2020 - Desarrollador Front End en Centro Virtual de Aprendizaje Tec de Monterrey</li>
+      </ul>
+    </section>
+    <section id="certifications" class="resume-section">
+      <h2>Certificados</h2>
+      <ul>
+        <li>PCAP - Programming Essentials in Python</li>
+        <li>CCNA Routing and Switching: Introduction to Networks</li>
+      </ul>
+    </section>
+    <section id="education" class="resume-section">
+      <h2>Formación</h2>
+      <ul>
+        <li>2018-2022&emsp;Tecnológico de Monterrey, Campus Monterrey. Promedio Global 98</li>
+        <li>2015-2018&emsp;Tecnológico de Monterrey, Campus Tampico</li>
+      </ul>
+    </section>
+    <section id="languages" class="resume-section">
+      <h2>Idiomas</h2>
+      <ol>
+        <li>Español</li>
+        <li>Inglés</li>
+        <li>Francés</li>
+      </ol>
+    </section>
+  </main>
 </body>
+
 </html>
